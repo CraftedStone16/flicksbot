@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const Util = require('discord.js');
 const client = new Discord.Client();
-client.login('NTM3MDQ5MzM5OTY1NDcyNzg4.Dyk6mg.ckLpAKR9LVXWHF6cy8eUPTSaD1A');
+client.login(process.env.BOT_TOKEN);
 
 var prefix = "=="
 var modprefix = "=!"
