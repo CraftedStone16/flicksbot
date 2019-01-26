@@ -4,7 +4,7 @@
   "description": "A Private Bot for the Flicks Clan!",
   "main": "flicksbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node verify.js"
   },
   "author": "Flicks Bot Developer Team",
   "license": "MIT",
