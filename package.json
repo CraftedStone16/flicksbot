@@ -1,0 +1,21 @@
+{
+  "name": "flicksbot",
+  "version": "0.5.0",
+  "description": "A Private Bot for the Flicks Clan!",
+  "main": "flicksbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Flicks Bot Developer Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "discord.js": "^11.4.2",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.0.1",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^0.20.1"
+  },
+  "devDependencies": {}
+}
