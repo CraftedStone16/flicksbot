@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const Util = require('discord.js');
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
+client..listen(process.env.PORT);
 
 var prefix = "=="
 var modprefix = "=!"
@@ -242,4 +243,4 @@ client.on('message', message => {
     //   message.channel.send('Kate sits through chemistry by her extremely gorgeous friend Jacob. Just looking at him makes her even more wet. She imagines his dick pounding and penetrating her as hard as he can. She almost moans out loud from desire. Jacob''s hand slips down her pants. She gasps then whispers in his ear. "Ditch your next class with me." He nods, knowing what it means. Finally Chemistry was over and Kate and Jacob start walking through the halls, finding a place of secrecy. They end up in the storage room."Jacob, fuck me, fuck me so damn hard. Please" Kate screams. She takes off her shirt revealing her gigantic double Ds. Jacob takes off his shirt then peels off his pants revealing a 10-inch cock. Jacob cannot wait and starts rubbing his cock vigorously until Kate has her pants fully off. Her pussy and all around it is drenched from being so horny. She moves his hands out of the way and starts licking his cock.')
     //   message.channel.send('He moans in pleasure and she begins to gag from going to deep. He grabs her pussy and rubs it hard. She screams with pleasure. He shoves her on the ground fondling her breasts. He grabs her arms and holds her down then shoves his dick deep inside of her. He goes very slow. She screams everytime he gets deeper than before. Kate begins to moan and plead for more. Jacob answers her wish and fucks her as fast and hard as he can. He goes faster and faster with each thrust. They''re both screaming and moaning. Kate squirts all over his dick then Jacobs cums inside her.')
     // }
-}).listen(process.env.PORT || 5000);
+});
