@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const Util = require('discord.js');
+const fastify = require('fastify')
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
 fastify.listen(process.env.PORT || 3000, function (err) {
