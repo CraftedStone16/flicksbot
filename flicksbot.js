@@ -2,6 +2,10 @@ const Discord = require('discord.js');
 const Util = require('discord.js');
 const client = new Discord.Client();
 client.login(process.env.BOT_TOKEN);
+fastify.listen(process.env.PORT || 3000, function (err) {
+  if (err) throw err
+  console.log(`server listening on ${fastify.server.address().port}`)
+});
 
 var prefix = "=="
 var modprefix = "=!"
